@@ -1,0 +1,5 @@
+<div>
+
+    {{ $this->form }}
+
+</div>
