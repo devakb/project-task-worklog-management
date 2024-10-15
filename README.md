@@ -63,7 +63,7 @@ php artisan key:generate
 ## Run Migrations
 Run the database migrations to set up your database structure:
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 ## Install Frontend Assets
