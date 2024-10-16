@@ -12,7 +12,7 @@ function convertMinutesToFormat(totalMinutes) {
     totalMinutes %= minutesInDay;
 
     const hours = Math.floor(totalMinutes / minutesInHour);
-    const minutes = totalMinutes % minutesInHour;
+    const minutes = Math.floor(totalMinutes % minutesInHour);
 
     // Prepare the result string
     const result = [];
